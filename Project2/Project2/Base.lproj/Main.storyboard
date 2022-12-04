@@ -16,41 +16,37 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cEc-7S-spF">
-                                <rect key="frame" x="84.666666666666686" y="244" width="224" height="114"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" image="us"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GF6-nf-bhi">
+                                <rect key="frame" x="96.666666666666686" y="103" width="200" height="100"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" image="us"/>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="exi-Rt-igD">
-                                <rect key="frame" x="84.666666666666686" y="388" width="224" height="114"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" image="us"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="j44-eL-v3E">
+                                <rect key="frame" x="96.666666666666686" y="230" width="200" height="100"/>
+                                <state key="normal" image="us"/>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="m2P-jB-qpM">
-                                <rect key="frame" x="84.666666666666686" y="100" width="224" height="114"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" image="us"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1u2-rW-lmB">
+                                <rect key="frame" x="96.666666666666686" y="360" width="200" height="100"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" image="us"/>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="m2P-jB-qpM" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="6qM-Df-x0j"/>
-                            <constraint firstItem="exi-Rt-igD" firstAttribute="centerX" secondItem="cEc-7S-spF" secondAttribute="centerX" id="I1m-0M-bGz"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="top" secondItem="m2P-jB-qpM" secondAttribute="top" constant="3" id="QVv-c8-mGd"/>
-                            <constraint firstItem="exi-Rt-igD" firstAttribute="top" secondItem="cEc-7S-spF" secondAttribute="bottom" constant="30" id="XoL-kl-tbg"/>
-                            <constraint firstItem="cEc-7S-spF" firstAttribute="top" secondItem="m2P-jB-qpM" secondAttribute="bottom" constant="30" id="cnl-Qm-LBh"/>
-                            <constraint firstItem="cEc-7S-spF" firstAttribute="centerX" secondItem="m2P-jB-qpM" secondAttribute="centerX" id="zbX-Hh-I3R"/>
+                            <constraint firstItem="1u2-rW-lmB" firstAttribute="top" secondItem="j44-eL-v3E" secondAttribute="bottom" constant="30" id="8aD-cg-qve"/>
+                            <constraint firstItem="1u2-rW-lmB" firstAttribute="centerX" secondItem="j44-eL-v3E" secondAttribute="centerX" id="Aau-FC-Rz7"/>
+                            <constraint firstItem="GF6-nf-bhi" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="Y2N-GP-HW5"/>
+                            <constraint firstItem="j44-eL-v3E" firstAttribute="top" secondItem="GF6-nf-bhi" secondAttribute="bottom" constant="27" id="fUh-7e-Tir"/>
+                            <constraint firstItem="GF6-nf-bhi" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="tnD-hB-vBF"/>
+                            <constraint firstItem="j44-eL-v3E" firstAttribute="centerX" secondItem="GF6-nf-bhi" secondAttribute="centerX" id="yZf-Gt-605"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="SUA-hO-JDG"/>
                     <connections>
-                        <outlet property="Button1" destination="cEc-7S-spF" id="4xb-Uv-yLp"/>
-                        <outlet property="Button2" destination="cEc-7S-spF" id="omT-h8-rgi"/>
-                        <outlet property="Button3" destination="exi-Rt-igD" id="igx-9D-AAE"/>
-                        <outlet property="button1" destination="m2P-jB-qpM" id="WTE-29-wkF"/>
-                        <outlet property="button2" destination="cEc-7S-spF" id="0O9-13-3rg"/>
-                        <outlet property="button3" destination="exi-Rt-igD" id="xOG-AM-shc"/>
+                        <outlet property="button1" destination="GF6-nf-bhi" id="Qmj-ne-hE3"/>
+                        <outlet property="button2" destination="j44-eL-v3E" id="hmC-I7-c4t"/>
+                        <outlet property="button3" destination="1u2-rW-lmB" id="zNB-dQ-hb8"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
